@@ -1,4 +1,5 @@
 const bot = require(__dirname + '/lib/smd')
+const keep_alive = require('./kep_alive.js')
 const { VERSION } = require(__dirname + '/config')
 
 const start = async () => {
